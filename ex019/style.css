@@ -18,3 +18,12 @@ body{
     h2{
         color: rgb(141, 3, 3);
     }
+    .basico{
+        color: green;
+    }
+    .intermediario{
+        color: rgb(170, 170, 8);
+    }
+    .avancado{
+        color: red;
+    }
