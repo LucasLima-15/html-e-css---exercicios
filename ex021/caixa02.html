@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(215, 25, 32);
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+        header > img{
+            height: 100px;
+            
+        }
+
+        nav{
+            background-color: darkgray;
+            
+        }
+        nav > a{
+            color: white;
+            padding: 10px;
+
+        }
+        nav > a:hover{
+            color: red;
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 5px;
+        }
+        article > p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            padding: 0px 10px;
+            color: rgb(87, 87, 87);
+        }
+        article > aside{
+            background-color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            
+            padding: 0px 0px 0px 15px;
+        }
+        footer{
+            background-color: black;
+            padding: 1px;
+        }
+        footer > p{
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Escudo_do_SPFC_2006-Atualmente.png" alt="LogoSPFC">
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do São Paulo FC</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque nulla dolorem recusandae est iure corporis dolores vero cum ratione possimus veritatis, quaerat error saepe soluta modi provident ullam nostrum quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima inventore odio itaque! Corrupti culpa ab earum autem iure quia atque hic perferendis sit, enim aperiam explicabo non sed veniam quisquam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ipsa asperiores, odio deleniti mollitia fugit repellendus! Ducimus, asperiores delectus porro, dolor sequi numquam quaerat quia, quasi nostrum a magnam dolorum?
+
+                </p>
+                <aside>
+                    <p>Artigo escrito por: Lucas Lima</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Lucas Lima</p>
+    </footer>
+</body>
+</html>
