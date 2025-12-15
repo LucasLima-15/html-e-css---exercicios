@@ -62,6 +62,7 @@
             padding-left: 10px;
             padding-right: 10px;
             margin: auto;
+            margin-bottom: 20px;
             text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.268);
         }
         nav{
@@ -96,8 +97,11 @@
 
         main h2{
             font-family: var(--fonte-spfc);
-            color: var(--cor0)
+            color: var(--cor0);
+            font-weight: normal;
         }
+
+
 
         main > h3{
             background-image: linear-gradient(to right, var(--cor0), transparent);
@@ -136,6 +140,23 @@
             width: 100%;
         }
         
+        div.video{
+            background-color: var(--cor1);
+            
+            margin: 0px -20px 30px -20px;
+            padding: 20px;
+            padding-bottom: 50%;
+            position: relative;
+        }
+
+        div.video > iframe{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
+
         aside{
             background-color: var(--cor2);
             border-radius: 10px;
@@ -158,6 +179,14 @@
             columns: 2;
         }
 
+        aside a{
+            background-color: #fc7373;
+        }
+
+        aside a:hover{
+            text-decoration: underline;
+            color: var(--cor0);
+        }
 
         footer{
             background-color: var(--cor1);
