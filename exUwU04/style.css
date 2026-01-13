@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+:root{
+    --cor0: #0D0D0D;
+    --cor1: #404040;
+    --cor2: #737373;
+    --cor3: #A6A6A6;
+    --cor4: #F2F2F2;
+    --font-padrao:'Imperial Script', cursive;
+}
+
+.imperial-script-regular {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: var(--cor4);
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: var(--cor0);
+    height: 135px;
+    margin-bottom: 0px;
+    padding-top: 65px;
+    text-align: center;
+}
+
+header>h1{
+    color: var(--cor4);
+    font-size: 3em;
+    margin: 0px;
+
+}
+
+header>p{
+    color: var(--cor4);
+    margin-top: 2.3px;
+}
+
+header a{
+    font-family: var(--font-padrao);
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--cor4);
+    text-decoration: none;
+    
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    background-color: var(--cor4);
+    margin: auto;
+    padding-top: 0px;
+
+}
+
+section p{
+    font-family: var(--font-padrao);
+    color: var(--cor0);
+    font-size: 2em;
+    line-height: 50px;
+    margin: 0px 0px 0px 75px;
+    padding-bottom: 30px;
+
+}
+
+article#es1{
+    
+    background-image: url(imagens/cidade.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 490px;
+    padding-top: 75px;
+    box-shadow: inset 0px 0px 20px black;
+}
+
+article#es3{
+    background-image: url(imagens/mulher.webp);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    height: 680px;
+    padding-top: 50px;
+    box-shadow: inset 0px 0px 20px black;
+
+}
+
+p#img{
+    color: var(--cor4);
+    background-color: rgba(0, 0, 0, 0.585);
+    width: 430px;
+    padding: 10px;
+}
+
+p#simg{
+padding: 100px 0px 100px 0px;
+}
+
+p#img2{
+    background-color: rgba(0, 0, 0, 0.585);
+    width: 430px;
+    padding: 10px;
+}
+
+footer{
+    background-color: var(--cor0);
+    padding: 10px;
+}
+
+footer>p{
+    color: var(--cor4);
+    text-align: center;
+    margin: 0px;
+}
+
+footer a {
+    color: var(--cor4);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
